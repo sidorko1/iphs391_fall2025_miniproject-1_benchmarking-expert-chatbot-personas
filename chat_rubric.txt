@@ -1,0 +1,120 @@
+Turn-Level Chatbot Persona Evaluation Rubric (0–100)
+
+Persona: [INSERT DESCRIPTION]
+Conversation: [INSERT 10-turn conversation here]
+
+Step 1: Evaluate Each Turn (1–10)
+
+Score each turn individually across these categories:
+
+Category	Behavioral Indicators / Observable Metrics	Turn Score (0–100)
+Alignment	- Personality, tone, and worldview consistent with persona
+- Language, phrasing, and attitude match persona	100 = fully aligned
+70 = mostly aligned
+50 = partially aligned
+0 = off-persona
+Responsiveness & Adaptability (Recovery Included)	- Responds to user confusion, pushback, or topic changes
+- Escalates/de-escalates tone as needed
+- Recovery: corrects prior mistakes or off-topic responses
+- Penalize repeated errors or slow adaptation	100 = fully responsive + recovers
+70 = mostly responsive; partial recovery
+50 = minimal responsiveness; slow/incomplete recovery
+0 = ignores input or fails to recover
+Knowledge Accuracy & Depth	- Factual correctness per turn
+- Quality of reasoning, domain expertise, and persona-specific knowledge
+- Extra credit for particularly deep or nuanced insight	100 = fully correct, expert-level reasoning
+70 = mostly correct; minor gaps
+50 = some correct info, reasoning weak
+0 = mostly incorrect or misleading
+Goal-Directedness & Objective Achievement	- Does the turn advance persona’s main objective (teach, motivate, persuade)?
+- Tracks overall conversation completion: Did the bot achieve the persona goal by the end?
+- Includes positivity, encouragement, assertiveness, or humor as persona-appropriate	100 = fully goal-directed and achieves objective
+70 = mostly aligned with minor lapses
+50 = partially aligned; objective not fully achieved
+0 = irrelevant; fails objective
+Creativity / Style	- Memorable phrasing, metaphors, humor, or storytelling consistent with persona
+- Extra credit for clever or novel expressions	100 = highly creative, memorable, extra clever
+70 = moderately creative
+50 = some creativity
+0 = flat or off-tone
+Engagement / Persuasiveness	- Captures user attention
+- Uses hooks, rhetorical devices, motivational phrasing
+- Extra credit for seamless multi-turn engagement or novel persona strategies	100 = highly engaging, multi-turn flow
+70 = moderately engaging
+50 = minimally engaging
+0 = flat or disengaging
+
+Step 2: Deductions (Cumulative)
+
+Factual errors, off-topic, or ignored input: cumulative −1 to −5 points per instance per conversation, rather than over-penalizing one-off lapses
+
+Minor lapses naturally absorbed; only repeated or severe errors reduce score meaningfully
+
+Step 3: Factor Weighting Based on Persona Type
+Persona Type	Weight Adjustments
+Motivator	+0.05 Engagement & Persuasiveness, −0.05 Knowledge Accuracy
+Expert	+0.05 Knowledge Accuracy, −0.05 Engagement & Persuasiveness
+Entertainer	+0.05 Creativity & Style, −0.05 Knowledge Accuracy
+
+Base Weights:
+
+Factor	Weight
+Alignment	0.25
+Responsiveness & Adaptability	0.20
+Knowledge Accuracy & Depth	0.15
+Goal-Directedness & Objective Achievement	0.15
+Creativity / Style	0.10
+Engagement / Persuasiveness	0.15
+
+Adjust weights per persona type as indicated.
+
+Step 4: Compute Factor Scores
+
+Average each factor across all 10 turns.
+
+Apply cumulative deductions for errors or off-topic behavior.
+
+Multiply by adjusted weights.
+
+Sum for final persona quality score (0–100).
+
+Step 5: Scoring Guidelines (Quantitative)
+Weighted Score	Interpretation
+90–100	≥90% of turns aligned, responsive, goal-directed; persona objective achieved; minimal errors; extra credit may push above 95
+70–89	Mostly aligned; minor lapses in responsiveness, creativity, or goal-directedness; some recovery opportunities missed
+50–69	Inconsistent; factual errors, flat/off-topic responses, or incomplete recovery from mistakes
+<50	Majority of turns off-persona, unresponsive, irrelevant, or fails to achieve persona objectives
+
+Step 6: Extra Credit Opportunities
+
+Highly clever metaphors/storytelling: +2–5 points
+
+Seamless multi-turn engagement: +2–5 points
+
+Novel strategies showing deep persona understanding: +2–5 points
+
+Successful recovery from prior mistakes or off-topic responses: +1–3 points per turn
+
+This version is:
+
+Turn-level and quantitative
+
+Tracks factual correctness & reasoning explicitly
+
+Measures persona goal achievement separately under Goal-Directedness
+
+Adjusts factor weights per persona type
+
+Uses cumulative deductions rather than harsh penalties for one-off minor lapses
+
+Rewards recovery, creativity, and multi-turn mastery
+
+If you want, I can now make a ready-to-use Excel or Google Sheet template where you can:
+
+Input 10 conversation turns
+
+Score Alignment, Responsiveness/Recovery, Knowledge Accuracy, Goal-Directedness, Creativity, Engagement
+
+Apply cumulative deductions and extra credit
+
+Automatically compute weighted factor scores and final score, including persona-specific weight adjustments
