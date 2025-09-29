@@ -5,75 +5,69 @@
 ![License Badge](https://img.shields.io/badge/License-MIT-green)
 
 ## Overview
-This project explores the development and evaluation of a **sophisticated chatbot persona** through iterative prompt engineering. The chosen persona, **Jordan Belfort**, was designed to embody complex behaviors—bold, confident, and persuasive—while demonstrating nuanced adaptability across different conversational contexts. The persona’s performance was rigorously evaluated using a **weighted rubric**, achieving a final score of **96/100**, reflecting both fidelity to the character and engagement quality.
+This repository contains **Mini-Project 1** for **IPHS 391: Frontiers of AI** at Kenyon College. The project investigates how **prompt engineering and persona design** influence chatbot behavior, engagement, and performance.
 
-The project emphasizes **complexity, subtlety, creativity, and effectiveness**, showcasing how layered instructions, examples, and meta-prompting can produce a chatbot that feels alive and interactive.
-
----
+Created by **Kirill Sidorko**, a senior Economics major, the project centers on the development of a **high-fidelity chatbot persona inspired by Jordan Belfort**, designed to provide confident, high-energy, and motivational guidance in conversational AI scenarios. The project evaluates how well the chatbot mirrors the intended persona through structured benchmarking and scoring.
 
 ## Methodology
 
-### Persona Development
-- **Target Persona:** Jordan Belfort, the “Wolf of Wall Street” – confident, high-energy, motivational, and streetwise.  
-- **Prompt Engineering Techniques:** Iterative meta-prompts, few-shot examples, system prompts, and dynamic response rules to adapt tone, length, and style.  
-- **Response Design:** Configured for short, punchy replies for casual questions and longer, detailed explanations for complex queries while maintaining persona consistency.
-
-### Conversation Evidence
-- Selected a **10-turn conversation** (20 utterances) demonstrating persona behaviors, including reflective questioning, motivational prompts, and illustrative anecdotes.  
-- Exported chat history in Markdown format to document the persona in action.
+### Persona Prompt Engineering
+- Constructed a system prompt capturing Jordan Belfort’s tone, personality, and conversational style.
+- Captured key traits: confidence, cockiness, humor, motivational guidance, and storytelling.
+- Used **few-shot examples** and iterative meta-prompts to ensure consistency and adaptability across interactions.
 
 ### Evaluation Framework
-- **Rubric Factors and Weights:**  
-  - Alignment (25%) – maintaining character, speech patterns, knowledge boundaries  
-  - Responsiveness & Adaptability (20%) – handling user input, recovering from off-topic queries  
-  - Knowledge Accuracy & Depth (15%) – correctness and reasoning  
-  - Goal-Directedness (15%) – advancing persona objectives: teaching, motivating, persuading  
-  - Creativity / Style (10%) – metaphors, storytelling, humor  
-  - Engagement / Persuasiveness (15%) – hooks, multi-turn flow, interaction quality  
-- **Extra Credit:** awarded for clever metaphors, multi-turn engagement, or recovery from prior mistakes.  
-- **Scoring Outcome:** Final persona score of **96/100**, demonstrating strong alignment, responsiveness, and engagement.
-
----
+- Developed a **weighted rubric (0–100)** for quantitative evaluation of persona fidelity.
+- Metrics included:
+  - Persona Consistency
+  - Responsiveness and Adaptability
+  - Knowledge Accuracy & Depth
+  - Goal-Directedness & Engagement
+  - Creativity & Style
+- Conducted **10-turn benchmark conversations** to measure alignment with persona objectives, engagement, and conversational style.
 
 ## Results
-- **Persona Consistency:** The chatbot reliably maintained Jordan Belfort’s voice and attitude across all turns.  
-- **Dynamic Responses:** Adjusted length and tone based on the type of user input. Short and direct for casual prompts, detailed and instructive for complex queries.  
-- **Strengths:** Engaging, motivational, and interactive responses that adhered closely to the intended persona.  
-- **Limitations:** Occasional over-explanation or repetition when handling off-topic or ambiguous questions, but did not significantly affect overall performance.
+- Achieved a **final persona fidelity score of 96/100**.
+- Strong performance in maintaining tone, engagement, and expert heuristics.
+- Minor weaknesses observed in occasional verbosity and repeated motivational cues.
+- Persona's high-energy style, storytelling, and streetwise approach enhanced user engagement and provided realistic mentorship simulation.
 
----
-
-## Repository Structure
-
-| Filename | Step | Description |
-|----------|------|-------------|
-| `README.md` | 7 | Professional project landing page and documentation |
-| `metaprompt_history.txt` | 2 | Iterative persona prompt development history |
-| `prompt_persona.txt` | 2 | Final refined chatbot persona prompt |
-| `chat_history.md` | 3 | 10-turn conversation illustrating persona in action |
-| `chat_rubric_history.md` | 4 | Rubric development conversation history |
-| `chat_rubric.txt` | 4 | Final evaluation rubric with weights and scoring guidelines |
-| `mp1_chatbot_report.docx` | 5 | Full report following the 6-section structure |
-
----
+## Files Description
+| File | Description |
+|------|-------------|
+| `prompt_persona.txt` | Final system prompt defining the chatbot persona. |
+| `metaprompt_history.txt` | Iterative refinements and development of the persona prompt. |
+| `chat_history.md` | 10-turn conversation demonstrating persona behavior. |
+| `chat_rubric.txt` | Detailed rubric with scoring breakdown for persona evaluation. |
+| `chat_rubric_history.md` | Evolution of the rubric over time. |
+| `mp1_chatbot_report.docx` | Comprehensive report analyzing methods, results, and conclusions. |
 
 ## Usage Instructions
-1. Review `prompt_persona.txt` to understand the persona configuration.  
-2. Load the persona prompt into ChatGPT or a compatible platform.  
-3. Observe `chat_history.md` for examples of effective persona interactions.  
-4. Apply `chat_rubric.txt` for evaluating additional conversations or testing reproducibility.
+1. Clone the repository:
+```bash
+git clone https://github.com/sidorko1/iphs391_fall2025_miniproject-1_benchmarking-expert-chatbot-personas.git
+```
+2. Examine `prompt_persona.txt` to understand persona design.
+3. Review `chat_history.md` to observe persona behavior.
+4. Use `chat_rubric.txt` for evaluation or further analysis.
 
----
+## Installation
+No additional dependencies are required. The repository is self-contained and suitable for academic review.
 
-## Key Insights
-- **Complexity:** Layered instructions and meta-prompts enabled sophisticated behavior.  
-- **Subtlety:** The chatbot dynamically adjusted tone, length, and challenge based on user input.  
-- **Creativity:** Metaphors, anecdotes, and humor enhanced realism and engagement.  
-- **Effectiveness:** High rubric score reflects success in teaching, motivating, and interacting consistently with the Jordan Belfort persona.
+## Contributing
+Contributions are welcome for:
+- Expanding benchmark conversations
+- Enhancing evaluation rubrics
+- Refining persona prompt techniques
 
----
+Please fork the repository and submit a pull request.
 
 ## License
+This repository is licensed under the **MIT License**. See LICENSE for details.
+
+## Citation
+If referencing this project for academic purposes, please cite as:
+> Sidorko, Kirill. "Benchmarking Expert Chatbot Personas: Jordan Belfort Persona." IPHS 391: Frontiers of AI, Kenyon College, Fall 2025.
 This repository is licensed under the **MIT License**, and all project materials are open-source and publicly available.
 
 ---
