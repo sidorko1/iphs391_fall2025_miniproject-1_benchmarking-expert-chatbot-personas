@@ -1,57 +1,81 @@
-# Benchmarking Expert Chatbot Personas
+# Benchmarking Expert Chatbot Personas – Mini Project #1
 
-![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
-![GitHub Repo Size](https://img.shields.io/github/repo-size/sidorko1/iphs391_fall2025_miniproject-1_benchmarking-expert-chatbot-personas)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/sidorko1/iphs391_fall2025_miniproject-1_benchmarking-expert-chatbot-personas)
+![Project Badge](https://img.shields.io/badge/Project-IPHS391_Fall2025-blue)
+![Status Badge](https://img.shields.io/badge/Status-Complete-success)
+![License Badge](https://img.shields.io/badge/License-MIT-green)
 
 ## Overview
-This repository contains the materials, analysis, and results from **IPHS 391 Fall 2025 Mini-Project 1**, focused on **benchmarking expert chatbot personas**. The project explores the design and evaluation of AI chatbot personas through **persona prompt engineering**, turn-level evaluation rubrics, and structured conversational testing. 
+This project explores the development and evaluation of a **sophisticated chatbot persona** through iterative prompt engineering. The chosen persona, **Jordan Belfort**, was designed to embody complex behaviors—bold, confident, and persuasive—while demonstrating nuanced adaptability across different conversational contexts. The persona’s performance was rigorously evaluated using a **weighted rubric**, achieving a final score of **96/100**, reflecting both fidelity to the character and engagement quality.
 
-The work demonstrates both the practical implementation of AI persona prompts and rigorous academic evaluation to assess alignment, responsiveness, and goal achievement of chatbot interactions.
+The project emphasizes **complexity, subtlety, creativity, and effectiveness**, showcasing how layered instructions, examples, and meta-prompting can produce a chatbot that feels alive and interactive.
+
+---
 
 ## Methodology
-The project methodology involved the following steps:
 
-1. **Persona Design**
-   - Crafted detailed persona prompts specifying personality, tone, background, and conversational objectives.
-   - Designed for high engagement, motivational, and domain-specific expertise (e.g., Jordan Belfort persona).
+### Persona Development
+- **Target Persona:** Jordan Belfort, the “Wolf of Wall Street” – confident, high-energy, motivational, and streetwise.  
+- **Prompt Engineering Techniques:** Iterative meta-prompts, few-shot examples, system prompts, and dynamic response rules to adapt tone, length, and style.  
+- **Response Design:** Configured for short, punchy replies for casual questions and longer, detailed explanations for complex queries while maintaining persona consistency.
 
-2. **Chat Simulation**
-   - Generated multi-turn chatbot conversations using the persona prompts.
-   - Saved raw chat logs for subsequent analysis (`chat_history.md`, `metaprompt_history.txt`).
+### Conversation Evidence
+- Selected a **10-turn conversation** (20 utterances) demonstrating persona behaviors, including reflective questioning, motivational prompts, and illustrative anecdotes.  
+- Exported chat history in Markdown format to document the persona in action.
 
-3. **Evaluation Rubric**
-   - Developed a **turn-level evaluation rubric** with weighted factors:
-     - Persona Alignment
-     - Responsiveness & Adaptability
-     - Knowledge Accuracy & Depth
-     - Goal-Directedness & Objective Achievement
-   - Scores assigned per turn (0–100), aggregated with weights to assess overall persona performance.
+### Evaluation Framework
+- **Rubric Factors and Weights:**  
+  - Alignment (25%) – maintaining character, speech patterns, knowledge boundaries  
+  - Responsiveness & Adaptability (20%) – handling user input, recovering from off-topic queries  
+  - Knowledge Accuracy & Depth (15%) – correctness and reasoning  
+  - Goal-Directedness (15%) – advancing persona objectives: teaching, motivating, persuading  
+  - Creativity / Style (10%) – metaphors, storytelling, humor  
+  - Engagement / Persuasiveness (15%) – hooks, multi-turn flow, interaction quality  
+- **Extra Credit:** awarded for clever metaphors, multi-turn engagement, or recovery from prior mistakes.  
+- **Scoring Outcome:** Final persona score of **96/100**, demonstrating strong alignment, responsiveness, and engagement.
 
-4. **Analysis**
-   - Applied rubric to chatbot conversations.
-   - Highlighted strengths and areas for improvement in persona fidelity and conversational effectiveness.
+---
 
-## Key Findings
-- Well-crafted prompts result in high alignment and engaging dialogue.
-- Recovery and adaptability are critical for maintaining persona consistency across unexpected user input.
-- Extra credit observed when chatbots demonstrated clever phrasing or corrected prior misalignment.
-- Turn-level scoring provides nuanced insight into conversational strengths and weaknesses.
+## Results
+- **Persona Consistency:** The chatbot reliably maintained Jordan Belfort’s voice and attitude across all turns.  
+- **Dynamic Responses:** Adjusted length and tone based on the type of user input. Short and direct for casual prompts, detailed and instructive for complex queries.  
+- **Strengths:** Engaging, motivational, and interactive responses that adhered closely to the intended persona.  
+- **Limitations:** Occasional over-explanation or repetition when handling off-topic or ambiguous questions, but did not significantly affect overall performance.
 
-## Files Description
-| File | Description |
-|------|-------------|
-| `prompt_persona.txt` | Original persona prompt specifications for chatbot design |
-| `chat_history.md` | Full conversation logs with the chatbot persona |
-| `chat_rubric.txt` | Detailed evaluation rubric used for scoring chatbot turns |
-| `chat_rubric_history.md` | Scored conversation history showing rubric application |
-| `metaprompt_history.txt` | Meta-prompt adjustments and engineering iterations |
-| `mp1_chatbot_report.docx` | Comprehensive project report including methodology, results, and discussion |
-| `.gitignore` | Standard Git ignore file |
-| `LICENSE` | MIT license for repository |
+---
+
+## Repository Structure
+
+| Filename | Step | Description |
+|----------|------|-------------|
+| `README.md` | 7 | Professional project landing page and documentation |
+| `metaprompt_history.txt` | 2 | Iterative persona prompt development history |
+| `prompt_persona.txt` | 2 | Final refined chatbot persona prompt |
+| `chat_history.md` | 3 | 10-turn conversation illustrating persona in action |
+| `chat_rubric_history.md` | 4 | Rubric development conversation history |
+| `chat_rubric.txt` | 4 | Final evaluation rubric with weights and scoring guidelines |
+| `mp1_chatbot_report.docx` | 5 | Full report following the 6-section structure |
+
+---
 
 ## Usage Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/sidorko1/iphs391_fall2025_miniproject-1_benchmarking-expert-chatbot-personas.git
-   cd iphs391_fall2025_miniproject-1_benchmarking-expert-chatbot-personas
+1. Review `prompt_persona.txt` to understand the persona configuration.  
+2. Load the persona prompt into ChatGPT or a compatible platform.  
+3. Observe `chat_history.md` for examples of effective persona interactions.  
+4. Apply `chat_rubric.txt` for evaluating additional conversations or testing reproducibility.
+
+---
+
+## Key Insights
+- **Complexity:** Layered instructions and meta-prompts enabled sophisticated behavior.  
+- **Subtlety:** The chatbot dynamically adjusted tone, length, and challenge based on user input.  
+- **Creativity:** Metaphors, anecdotes, and humor enhanced realism and engagement.  
+- **Effectiveness:** High rubric score reflects success in teaching, motivating, and interacting consistently with the Jordan Belfort persona.
+
+---
+
+## License
+This repository is licensed under the **MIT License**, and all project materials are open-source and publicly available.
+
+---
+
+This README presents the project in a **professional, clear, and engaging way**, emphasizing persona development, evaluation, and results—perfect for academic or portfolio presentation.  
